@@ -13,9 +13,6 @@ class packageController extends GetxController with ApiHelper {
   PromoCode? Promo_Code;
   Bill? Bill_Var;
   List<PaymentMethods> Payment_Var = [];
-
-  //promo_code
-
   var isDataLoading = false.obs;
   var isPackageDetailsLoading = false.obs;
 
